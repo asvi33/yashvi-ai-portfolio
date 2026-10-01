@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yashvi Ambaliya — AI Developer and Software Engineer portfolio.">
+  <title>Yashvi Ambaliya | AI Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home">YA<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">AI DEVELOPER • SOFTWARE ENGINEER</p>
+        <h1>Building useful<br><span>AI & web experiences.</span></h1>
+        <p class="hero-text">Computer Engineering graduate focused on Python, machine learning, data analysis, and modern web development.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects ↗</a>
+          <a class="btn secondary" href="mailto:ambaliyaasvi@gmail.com">Let's Connect</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/asvi33" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/yashvi-ambaliya-7041852ab" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:ambaliyaasvi@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="glow"></div>
+        <div class="code-window">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><code>const developer = {
+  name: "Yashvi Ambaliya",
+  role: "AI Developer",
+  skills: ["Python", "ML", "React"],
+  mindset: "Always learning"
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head"><span>01</span><h2>About me</h2></div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="profile.png" alt="Yashvi Ambaliya professional portrait">
+        </div>
+        <div>
+          <p class="lead">I’m an enthusiastic and detail-oriented Computer Engineering graduate aspiring to build a career as an AI Developer.</p>
+          <p>My foundation includes machine learning, Python, data analysis, frontend development, backend development, and databases. I enjoy turning ideas into practical applications and continuously learning new technologies.</p>
+          <div class="facts">
+            <div><strong>8.05/10</strong><span>GTU CGPA</span></div>
+            <div><strong>2021–2025</strong><span>B.E. Computer Engineering</span></div>
+            <div><strong>4+</strong><span>Internship experiences</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head"><span>02</span><h2>Engineering toolkit</h2></div>
+        <div class="skill-grid">
+          <div class="skill-card"><div class="skill-icon">⌘</div><b>Programming</b><p>Python · Java · C · C++ · JavaScript · SQL</p><div class="skill-line"><i style="width:88%"></i></div></div>
+          <div class="skill-card"><div class="skill-icon">&lt;/&gt;</div><b>Software Engineering</b><p>OOP · DSA foundations · REST APIs · Git/GitHub · Debugging · Clean UI</p><div class="skill-line"><i style="width:82%"></i></div></div>
+          <div class="skill-card"><div class="skill-icon">AI</div><b>AI / ML</b><p>Machine Learning · Deep Learning · NLP · Computer Vision · Model workflows</p><div class="skill-line"><i style="width:86%"></i></div></div>
+          <div class="skill-card"><div class="skill-icon">DB</div><b>Web & Data</b><p>React · Node.js · Express · MongoDB · HTML · CSS · Data Analysis</p><div class="skill-line"><i style="width:84%"></i></div></div>
+        </div>
+
+        <div class="focus-grid">
+          <div class="focus-card">
+            <span class="mini-label">AI / ML FOCUS</span>
+            <h3>From data to intelligent applications.</h3>
+            <p>Exploring practical AI workflows: data preparation, feature engineering, model training, evaluation, and turning ML ideas into useful applications.</p>
+            <div class="chips"><span>Python</span><span>ML</span><span>NLP</span><span>Computer Vision</span></div>
+          </div>
+          <div class="focus-card">
+            <span class="mini-label">SOFTWARE ENGINEERING FOCUS</span>
+            <h3>Build. Test. Improve. Ship.</h3>
+            <p>Interested in building maintainable software with clear structure, responsive interfaces, APIs, databases, debugging, and continuous improvement.</p>
+            <div class="chips"><span>APIs</span><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head"><span>03</span><h2>Featured projects</h2></div>
+      <div class="project-intro">
+        <div><span class="mini-label">SELECTED WORK</span><h3>AI + software, built for real use.</h3></div>
+        <p>A mix of machine-learning experiments and full-stack applications that show my interest in solving problems through code.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI / ML</button>
+        <button class="filter" data-filter="web">Web</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-category="web">
+          <span class="tag">WEB</span><h3>E-Commerce Website</h3>
+          <p>Responsive shopping platform with authentication, cart, order processing, and database management.</p>
+          <small>React JS · Node JS · Express · MongoDB</small>
+        </article>
+        <article class="project-card" data-category="web">
+          <span class="tag">WEB</span><h3>Online Pizza Delivery</h3>
+          <p>Database-driven ordering application with customization, order status, admin dashboard, users, and menu management.</p>
+          <small>HTML · CSS · JavaScript · PHP</small>
+        </article>
+        <article class="project-card" data-category="ai">
+          <span class="tag">AI / ML</span><h3>Movie Recommendation System</h3>
+          <p>Personalized movie suggestions using user ratings, behaviour, collaborative filtering, and content-based filtering.</p>
+          <small>Python · Data Analytics · ML</small>
+        </article>
+        <article class="project-card" data-category="ai">
+          <span class="tag">AI / ML</span><h3>Text Classification</h3>
+          <p>Deep-learning NLP system that classifies text into predefined categories.</p>
+          <small>Python · TensorFlow · NLP</small>
+        </article>
+        <article class="project-card" data-category="ai">
+          <span class="tag">AI / ML</span><h3>Pet Face Classification</h3>
+          <p>Computer-vision model that identifies and classifies pet faces using image preprocessing and CNN techniques.</p>
+          <small>Python · CNN · Computer Vision</small>
+        </article>
+        <article class="project-card" data-category="ai">
+          <span class="tag">AI / ML</span><h3>Landmark Detection</h3>
+          <p>CNN-based model for detecting and localizing key landmarks in images.</p>
+          <small>Python · CNN · Deep Learning</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section architecture">
+      <div class="container">
+        <div class="section-head"><span>04</span><h2>How I approach a project</h2></div>
+        <div class="process-grid">
+          <div class="process-card"><span>01</span><h3>Understand</h3><p>Define the problem, users, inputs, outputs, and practical requirements.</p></div>
+          <div class="process-card"><span>02</span><h3>Build</h3><p>Choose the right stack, structure the solution, and develop a working prototype.</p></div>
+          <div class="process-card"><span>03</span><h3>Validate</h3><p>Test behaviour, inspect data or model results, debug issues, and improve reliability.</p></div>
+          <div class="process-card"><span>04</span><h3>Improve</h3><p>Refine UX, performance, maintainability, and document the next iteration.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="section-head"><span>05</span><h2>Experience</h2></div>
+        <div class="timeline">
+          <div class="timeline-item"><span>AI/ML Intern</span><h3>1Stop AI Solutions</h3><p>Developed ML models using Python; worked on data preprocessing, feature engineering, and model training.</p></div>
+          <div class="timeline-item"><span>Full Stack Intern</span><h3>Silico Software</h3><p>Developed and maintained full-stack web applications and responsive interactive interfaces.</p></div>
+          <div class="timeline-item"><span>Web Developer Intern</span><h3>Webito Infotech</h3><p>Developed responsive web applications and implemented frontend and backend functionality.</p></div>
+          <div class="timeline-item"><span>Front End Developer Intern</span><h3>IBM</h3><p>Developed responsive web pages with HTML, CSS, and JavaScript and implemented interactive UI components.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-head"><span>06</span><h2>Education & certifications</h2></div>
+      <div class="edu-grid">
+        <div class="edu-card"><span>2021–2025</span><h3>B.E. Computer Engineering</h3><p>Gujarat Technological University</p><strong>CGPA: 8.05/10</strong></div>
+        <div class="edu-card"><span>2021</span><h3>HSC — GSEB</h3><p>Ashadeep IIT</p><strong>85.16%</strong></div>
+        <div class="edu-card"><span>Professional Development</span><h3>Training & Activities</h3><p>IBM SkillsBuild · SAP Code Unnati · SSIP I&D Cell · Tech-fest Student Volunteer</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-box">
+        <p class="eyebrow">LET'S BUILD SOMETHING</p>
+        <h2>Have an opportunity or idea?</h2>
+        <p>I'm open to software engineering, AI/ML, and web development opportunities.</p>
+        <a class="btn primary" href="mailto:ambaliyaasvi@gmail.com">Email Me ↗</a>
+        <div class="contact-links">
+          <span>+91 9106357087</span>
+          <a href="https://github.com/asvi33" target="_blank" rel="noopener">github.com/asvi33</a>
+          <a href="https://www.linkedin.com/in/yashvi-ambaliya-7041852ab" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">© <span id="year"></span> Yashvi Ambaliya · Built with HTML, CSS & JavaScript.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
